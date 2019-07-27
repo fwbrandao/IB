@@ -78,8 +78,8 @@ class pynstaBot:
 
 if __name__ == "__main__":
 
-    username = ""
-    password = ""
+    username = "yourUserName"
+    password = "yourPassword"
 
     ig = pynstaBot(username, password)
     ig.login()

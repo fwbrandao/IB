@@ -75,7 +75,7 @@ class InstagramBot:
 
 if __name__ == "__main__":
 
-    nandoIG = InstagramBot("", "")
+    nandoIG = InstagramBot("yourUserName", "yourPassword")
     nandoIG.login()
     nandoIG.like_feed()
     # nandoIG.like_photo('programming')
